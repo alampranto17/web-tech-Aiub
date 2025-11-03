@@ -1,0 +1,165 @@
+<html>
+
+<head>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            background-color: lightgrey;
+        }
+
+        body {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            
+
+        }
+        /* table, th , td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        } */
+
+        .center-text {
+            text-align: center;
+        }
+
+        .right-alignment {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 2px;
+        }
+
+        #header1 {
+            font-size: larger;
+        }
+
+        #header2 {
+            font-weight: bold;
+        }
+
+        .right_small{
+            padding-left: 10%;
+            text-align: end;
+        }
+        h3{
+            color:red;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p id="header1"><span style="color:red">*</span> Denotes Required Information</p>
+        <p> <span id="header2">> 1 Donation</span> <span> > 2 Confirmation</span> <span> > 3 Thank You</span></s></p>
+        <form>
+            <h3>Donor Information</h3>
+            <table>
+                <tr>
+                    <td class="right-alignment">First Name <span style="color:red">*</span></td>
+                    <td><input type="text" placeholder="Enter Your name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Last Name <span style="color:red">*</span></td>
+                    <td><input type="" placeholder="Enter Your name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Company <span style="color:red">*</span></td>
+                    <td><input type="" placeholder="Enter Company Name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Address 1 <span style="color:red">*</span></td>
+                    <td><input type="" placeholder="Enter Company Name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Address 2 </td>
+                    <td><input type="" placeholder="Enter Company Name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">City <span style="color:red">*</span></td>
+                    <td><input type="" placeholder="Enter Company Name" /></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">State <span style="color:red">*</span></td>
+                    <td>
+                        <select>
+                            <option disabled selected>Select Your State</option>
+                            <option>State 1</option>
+                            <option>state 2</option>
+                            <option>State 3</option>
+                            <option>state 4</option>
+                        </select>
+                    </td>
+                </tr>
+                 <tr>
+                    <td class="right-alignment">Zip <span style="color:red">*</span></td>
+                    <td>
+                        <input type="text" name="Zip" id="">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Gender <span style="color:red">*</span></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" />Male
+                        <input type="radio" name="gender" value="female" />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td class="right-alignment"> Phone</td>
+                    <td><input type="text" placeholder="Enter your number"></td>
+                </tr>
+
+                 <tr>
+                    <td class="right-alignment">Fax </td>
+                    <td><input type="text" placeholder="Enter your number"></td>
+                </tr>
+
+                <tr>
+                    <td class="right-alignment">Email <span style="color:red">*</span> </td>
+                    <td><input type="text" placeholder="Enter your number"></td>
+                </tr>
+                <tr>
+                    <td class="right-alignment">Donation Amount<span style="color:red">*</span></td>
+                    <td>
+                       
+                        <input type="radio" name="Denotes" value="0">None
+                        <input type="radio" name="Denotes" value="5">5
+                        <input type="radio" name="Denotes" value="10">10
+                        <input type="radio" name="Denotes" value="20">20
+
+                    </td> 
+                </tr>
+
+                <tr>
+                    <td class="right_small">(check a button or type in your amount)</td>
+                    <td>
+                       
+                        <label for="number" class="right-alignment">Other</label>
+                        <input type="number" placeholder="Enter Amount">
+
+                    </td> 
+                </tr>
+
+
+            </table>
+            <h3>Honorarium And Memoria Donation Information</h3>
+            <table>
+                
+
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
