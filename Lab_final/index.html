@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Comment Systems</title>
+
+<link rel="stylesheet" href="/Lab_final/style.css">
+</head>
+<body>
+
+<div class="container">
+
+
+    <div class="article-box">
+        <h2>Article 1: The Rise of AI in News Media</h2>
+        <p>
+            Artificial intelligence has transformed the news industry. From automated fact-checking 
+            to personalized content delivery, AI continues to play a major role in digital journalism.
+        </p>
+    </div>
+
+
+    <h3>Comment Section </h3>
+
+    <div class="stats">
+        <strong>Total Comments:</strong> <span id="totalComments1">0</span><br>
+        <strong>Average Rating:</strong> <span id="averageRating1">0.0</span>
+    </div>
+
+    <div class="comment-form">
+        <label>Name (Required)</label>
+        <input type="text" id="name1">
+        <div id="nameError1" class="error"></div>
+
+        <label>Email (Optional)</label>
+        <input type="text" id="email1">
+        <div id="emailError1" class="error"></div>
+
+        <label>Comment (Required)</label>
+        <textarea id="commentText1" rows="4"></textarea>
+        <div id="commentError1" class="error"></div>
+
+        <label>Rating (Optional)</label>
+        <div class="rating" id="ratingStars1">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+
+        <button onclick="postComment(1)">Post Comment</button>
+    </div>
+
+    <div id="commentList1"></div>
+
+
+    
+    <div class="article-box">
+        <h2>Article 2: The Future of Online Learning</h2>
+        <p>
+            Online learning platforms are expanding globally. With AI tutors, interactive content, 
+            and virtual classrooms, education is entering a new digital era.
+        </p>
+    </div>
+
+   
+    <h3>Comment Section</h3>
+
+    <div class="stats">
+        <strong>Total Comments:</strong> <span id="totalComments2">0</span><br>
+        <strong>Average Rating:</strong> <span id="averageRating2">0.0</span>
+    </div>
+
+    <div class="comment-form">
+        <label>Name (Required)</label>
+        <input type="text" id="name2">
+        <div id="nameError2" class="error"></div>
+
+        <label>Email (Optional)</label>
+        <input type="text" id="email2">
+        <div id="emailError2" class="error"></div>
+
+        <label>Comment (Required)</label>
+        <textarea id="commentText2" rows="4"></textarea>
+        <div id="commentError2" class="error"></div>
+
+        <label>Rating (Optional)</label>
+        <div class="rating" id="ratingStars2">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+
+        <button onclick="postComment(2)">Post Comment</button>
+    </div>
+
+    <div id="commentList2"></div>
+
+
+</div>
+
+<script src="/Lab_final/comment.js"></script>
+
+</body>
+</html>
