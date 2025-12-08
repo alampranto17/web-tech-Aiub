@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    max-width: 1140px;
+    background-color: rgb(211, 202, 202);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    justify-content: center;
+    flex-direction: column;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.green {
+    background-color: green;
+    color: white;
+}
